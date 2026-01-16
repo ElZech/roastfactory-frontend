@@ -1,0 +1,23 @@
+{
+  "token_mint": "GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS",
+  "network": "mainnet-beta",
+  "created_at": "2026-01-12T19:00:00Z",
+  "metadata": {
+    "name": "RoastPush",
+    "symbol": "ROAST",
+    "decimals": 9
+  },
+  "fee_share": {
+    "creator_bps": 10000,
+    "total_bps": 10000
+  },
+  "explorer_links": {
+    "solscan": "https://solscan.io/token/GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS",
+    "solana_explorer": "https://explorer.solana.com/address/GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS",
+    "birdeye": "https://birdeye.so/token/GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS"
+  },
+  "integration": {
+    "constant_file": "src/config/constants.ts",
+    "env_variable": "NEXT_PUBLIC_ROAST_TOKEN_MINT"
+  }
+}

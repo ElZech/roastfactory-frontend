@@ -1,0 +1,36 @@
+{
+  "run_id": "web3-roastpush-185802",
+  "app_name": "RoastPush",
+  "app_type": "token_powered",
+  "generated_at": "2026-01-12T18:58:00Z",
+  "pipeline_version": "1.0.0",
+  "stages_completed": ["W1", "W2", "W3", "W4", "W5", "W6", "W7"],
+  "token": {
+    "name": "RoastPush",
+    "symbol": "ROAST",
+    "decimals": 9,
+    "created": true,
+    "mint_address": "GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS",
+    "solscan": "https://solscan.io/token/GRv23yBYo1fMqDY8Ws2LqjwHoLx4TGUqYi7KfCDkBAGS"
+  },
+  "fee_routing": {
+    "creator_bps": 10000,
+    "partner_bps": 0
+  },
+  "framework": {
+    "name": "Next.js",
+    "version": "14.x",
+    "router": "App Router"
+  },
+  "dependencies": {
+    "solana": "@solana/web3.js ^1.91.0",
+    "wallet_adapter": "@solana/wallet-adapter-react ^0.15.35",
+    "ui": "Tailwind CSS 3.x, Radix UI"
+  },
+  "deployment": {
+    "recommended_platform": "Vercel",
+    "environment_variables_required": 10,
+    "database_required": true,
+    "redis_required": true
+  }
+}

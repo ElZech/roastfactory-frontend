@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --fire: #FF4500;
+  --fire-light: #FF6B35;
+  --fire-ember: #E94560;
+  --dark: #0D0D0D;
+  --dark-lighter: #1A1A2E;
+  --dark-navy: #16213E;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(180deg, #1A1A2E 0%, #0D0D0D 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-navy);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fire);
+}
+
+/* Wallet adapter overrides */
+.wallet-adapter-button {
+  background: linear-gradient(135deg, var(--fire) 0%, var(--fire-light) 100%) !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: var(--dark-lighter) !important;
+}
+
+/* Fire glow effect */
+.fire-glow {
+  box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow: 0 0 10px var(--fire), 0 0 20px var(--fire), 0 0 30px var(--fire);
+}
