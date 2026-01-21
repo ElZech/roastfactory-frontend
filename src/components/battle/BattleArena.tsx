@@ -20,7 +20,7 @@ export function BattleArena({ battleId, onBattleEnd }: BattleArenaProps) {
   const socket = useSocket();
   
   const [round, setRound] = useState(1);
-  const [timeRemaining, setTimeRemaining] = useState(BATTLE_CONFIG.ROUND_DURATION);
+ const [timeRemaining, setTimeRemaining] = useState<number>(30);
   const [phase, setPhase] = useState<"waiting" | "prompt" | "record" | "judging" | "result">("waiting");
   const [currentPrompt, setCurrentPrompt] = useState("");
   const [myScore, setMyScore] = useState(0);
