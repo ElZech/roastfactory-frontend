@@ -15,7 +15,7 @@ export function Header() {
         <a href="/" className="flex items-center gap-2">
           <Flame className="w-6 h-6 text-fire" />
           <span className="font-heading text-xl text-fire uppercase">
-            RoastPush
+            ROAST FACTORY
           </span>
         </a>
 

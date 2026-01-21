@@ -17,10 +17,10 @@ export const FEE_ROUTING = {
 
 // Battle Tiers
 export const BATTLE_TIERS = {
-  Bronze: { entry: 10, color: "#CD7F32" },
-  Silver: { entry: 50, color: "#C0C0C0" },
-  Gold: { entry: 100, color: "#FFD700" },
-  Diamond: { entry: 500, color: "#00D9FF" },
+  Bronze: { entry: 2000, color: "#CD7F32" },
+  Silver: { entry: 6000, color: "#C0C0C0" },
+  Gold: { entry: 8000, color: "#FFD700" },
+  Diamond: { entry: 10000, color: "#00D9FF" },
 } as const;
 
 export type BattleTier = keyof typeof BATTLE_TIERS;

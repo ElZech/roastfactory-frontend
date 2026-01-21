@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="text-center space-y-4">
         <h1 className="font-heading text-5xl md:text-6xl text-fire uppercase tracking-tight">
-          RoastPush
+          ROAST FACTORY
         </h1>
         <p className="text-gray-400 text-lg max-w-md mx-auto">
           Battle your wit. Win ROAST tokens. Go viral.
